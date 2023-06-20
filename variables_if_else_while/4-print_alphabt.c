@@ -13,14 +13,14 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		if (alpha == "e", "q")
+		if (alpha = "e" "q")
 		{
 			continue;
 		}
 		putchar(alpha[i]);
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 
