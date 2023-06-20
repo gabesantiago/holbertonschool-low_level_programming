@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+/**
+ * main - prints all numbers of base 16 in lower case
+ * followed by a new line
+ *
+ * Return: Always 0
+ */
+
+int main(void)
+{
+	int num;
+	char letter;
+
+	for (num = 0; num < 10; num++)
+	{
+		putchar(num);
+	}
+
+	for (letter = 'a'; letter <= 'f'; letter++)
+	{
+		putchar(letter);
+	}
+
+	putchar('\n');
+
+	return (0);
+}
