@@ -12,10 +12,10 @@ int main(void)
 
 	for (base_10 = 0; base_10 < 10; base_10++)
 	{
-		putchar(base_10);
+		printf(base_10);
 	}
 
-	putchar('\n');
+	printf('\n');
 
 	return (0);
 }
