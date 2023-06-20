@@ -15,7 +15,7 @@ int main(void)
 		printf("%d", base_10);
 	}
 
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }
