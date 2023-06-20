@@ -13,9 +13,8 @@ int main (void)
 
 	for (i = 0; i < 26; i++)
 	{
-		putchar(alp[i]/n);
+		putchar(alp[i]"\n");
 	}
-
 	return (0);
 }
 	
